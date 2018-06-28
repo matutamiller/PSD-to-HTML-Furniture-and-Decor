@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/colors.css",
+	"sources": [
+		"../scss/colors.scss"
+	],
+	"sourcesContent": [
+		"$brown: #BEA67C;\n$black: #000000;\n$gray: #6D6D6D;\n"
+	],
+	"mappings": "",
+	"names": []
+}

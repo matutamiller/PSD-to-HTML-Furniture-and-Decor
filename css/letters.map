@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../scss/letters.css",
+	"sources": [
+		"../scss/letters.scss",
+		"../scss/colors.scss"
+	],
+	"sourcesContent": [
+		"@import 'colors';\n\n.fLetter {\n    position: absolute;\n    left: 13%;\n    bottom: 1%;\n    line-height: 0;\n    color: $brown;\n    font-size: 22em;\n    font-weight: bold;\n    opacity: 0.1;\n    user-select: none;\n}\n",
+		"$brown: #BEA67C;\n$black: #000000;\n$gray: #6D6D6D;\n"
+	],
+	"mappings": ";AAEA,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,QAAS;EACnB,IAAI,EAAE,GAAI;EACV,MAAM,EAAE,EAAG;EACX,WAAW,EAAE,CAAE;EACf,KAAK,ECPD,OAAO;EDQX,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,IAAK;EAClB,OAAO,EAAE,GAAI;EACb,WAAW,EAAE,IAAK;CACrB",
+	"names": []
+}

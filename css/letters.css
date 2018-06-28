@@ -1,0 +1,14 @@
+/* line 3, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+.fLetter {
+  position: absolute;
+  left: 13%;
+  bottom: 1%;
+  line-height: 0;
+  color: #BEA67C;
+  font-size: 22em;
+  font-weight: bold;
+  opacity: 0.1;
+  user-select: none;
+}
+
+/*# sourceMappingURL=../css/letters.map */

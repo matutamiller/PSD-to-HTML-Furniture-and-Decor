@@ -11,4 +11,41 @@
   user-select: none;
 }
 
+/* line 15, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+.dLetter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 0;
+  font-weight: bold;
+  color: #BEA67C;
+  top: -200px;
+  font-size: 22em;
+  opacity: 0.1;
+}
+
+/* line 27, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+.furnText {
+  text-transform: uppercase;
+  color: #BEA67C;
+  opacity: 0.2;
+  font-size: 10em;
+  position: absolute;
+  bottom: 25%;
+  right: -80%;
+  font-weight: bold;
+}
+
+/* line 38, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+.decText {
+  text-transform: uppercase;
+  color: #BEA67C;
+  opacity: 0.2;
+  font-size: 10em;
+  position: absolute;
+  bottom: 25%;
+  left: -45%;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=../css/letters.map */

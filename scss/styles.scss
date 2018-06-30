@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'letters';
+@import 'mobStyles';
 //Commom setings 
 * {
     margin: 0;
@@ -373,5 +374,209 @@ body {
         height: 60px;
         width: 3px;
         background: $brown;
+    }
+}
+
+
+//Furniture and Decor
+
+.decWrapper,
+.furnWrapper {
+    width: 100%;
+    padding: 150px 0;
+}
+
+.decContent,
+.furnContent {
+    width: 68%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .filling {
+        width: calc(100%/2);
+        display: flex;
+        position: relative;
+
+        .bFor {
+            width: 30%;
+        }
+    }
+
+    .pic {
+        width: 60%;
+        position: relative;
+        user-select: none;
+
+        img {
+            filter:grayscale(0.8);
+        }
+    }
+    
+}
+
+.furnDetails {
+    width: 70%;
+    padding-right: 4em;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 3em;
+        position: relative;
+        letter-spacing: 2px;
+        margin-bottom: 1.4rem;
+
+        &:before {
+            content: '';
+            width: 160px;
+            height: 3px;
+            background: $gray;
+            position: absolute;
+            left: -180px;
+            top: 45%;
+        }
+    }
+
+    p {
+        line-height: 1.4;
+        color: $gray;
+        font-size: 1.3em;
+        position: relative;
+        margin-bottom: 30px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background: $brown;
+            top: 10%;
+            left: -70px;
+        }
+    }
+}
+
+.decorDetails {
+    width: 70%;
+    padding-left: 2em;
+    text-align: right;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 3em;
+        position: relative;
+        letter-spacing: 2px;
+        margin-bottom: 1.4rem;
+
+        &:before {
+            content: '';
+            width: 160px;
+            height: 3px;
+            background: $gray;
+            position: absolute;
+            right: -180px;
+            top: 45%;
+        }
+    }
+
+    p {
+        line-height: 1.4;
+        color: $gray;
+        font-size: 1.3em;
+        position: relative;
+        margin-bottom: 30px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background: $brown;
+            top: 10%;
+            right: -70px;
+        }
+    }
+}
+
+.furnContent {
+    .number {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 3em;
+        font-weight: bold;
+        line-height: 0;
+
+        span {
+            color: $brown;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            height: 60px;
+            top: 100px;
+            left: 40%;
+            background: $brown;
+        }
+    }
+}
+
+.decContent {
+    .filling {
+        .number {
+            position: absolute;
+            bottom: 0;
+            left: 90%;
+            font-size: 3em;
+            font-weight: bold;
+            line-height: 0;
+
+            span {
+                color: $brown;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                width: 4px;
+                height: 60px;
+                top: 100px;
+                right: 40%;
+                background: $brown;
+            }
+        }
+    }
+}
+.imageItem {
+    width: 100%;
+    box-shadow: 0 0 15px $brown;
+}
+
+.learnButton {
+    background: 0;
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+    position: relative;
+
+    &:after {
+        content: '';
+        width: 40px;
+        height: 3px;
+        background: $brown;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+    }
+
+    span {
+        color: $brown;
     }
 }

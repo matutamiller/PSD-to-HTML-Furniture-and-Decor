@@ -580,3 +580,126 @@ body {
         color: $brown;
     }
 }
+
+//Wooder Quality 
+
+.qualityWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 0;
+    text-align: center;
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 3em;
+        letter-spacing: 3px;
+    }
+
+    & > hr {
+        width: 60px;
+        height: 4px;
+        background: $brown;
+        border: 0;
+        outline: 0;
+        margin: 20px 0;
+    }
+
+    & > p {
+        font-size: 1.6em;
+        color: $gray;
+        line-height: 1.6;
+    }
+}
+
+.videoWrapper {
+    width: 68%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5em 0;
+    position: relative;
+}
+
+.video {
+    width: calc(100%/3 - 2em);
+
+    hr {
+        width: 40px;
+        height: 1px;
+        border: 0;
+        outline: 0;
+        background: $brown;
+        margin: 20px auto;
+    }
+
+    .videoTitle {
+        font-weight: bold;
+    }
+}
+
+.videoThumb {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+    .thumb {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: 0 0 0 10px white, 0 0 0 11px $brown;
+        margin: 20px 0;
+        transition: all 0.3s;
+
+        &:hover {
+            box-shadow: 0 0 0 15px white, 0 0 0 16px $brown;
+        }
+
+        .playIcon {
+            color: #fff;
+            font-size: 2em;
+            position: absolute;
+            left: 35%;
+            right: 35%;
+            top: 35%;
+            bottom: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: $brown;
+            padding: 15px 15px 15px 20px;
+            line-height: 0;
+            border-radius: 50%;
+            opacity: 0.6;
+            cursor: pointer;
+            transition: all 0.3s;
+
+            &:hover {
+                left: 30%;
+                right: 30%;
+                top: 30%;
+                bottom: 30%;
+            }
+        }
+    }
+
+    .thumbTable {
+        background: url("../imgs/thumbTable.png") no-repeat 30% 50%;
+        background-size: 160%;
+    }
+
+    .thumbChair {
+        background: url("../imgs/thumbChair.png") no-repeat 30% 50%;
+        background-size: cover;
+    }
+
+    .thumbDesk {
+        background: url("../imgs/thumbDesk.png") no-repeat 30% 50%;
+        background-size: 100%;
+    }
+}

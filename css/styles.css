@@ -779,4 +779,141 @@ body {
   color: #BEA67C;
 }
 
+/* line 586, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.qualityWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em 0;
+  text-align: center;
+}
+
+/* line 594, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.qualityWrapper h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+/* line 601, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.qualityWrapper > hr {
+  width: 60px;
+  height: 4px;
+  background: #BEA67C;
+  border: 0;
+  outline: 0;
+  margin: 20px 0;
+}
+
+/* line 610, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.qualityWrapper > p {
+  font-size: 1.6em;
+  color: #6D6D6D;
+  line-height: 1.6;
+}
+
+/* line 617, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoWrapper {
+  width: 68%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5em 0;
+  position: relative;
+}
+
+/* line 627, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.video {
+  width: calc(100%/3 - 2em);
+}
+
+/* line 630, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.video hr {
+  width: 40px;
+  height: 1px;
+  border: 0;
+  outline: 0;
+  background: #BEA67C;
+  margin: 20px auto;
+}
+
+/* line 639, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.video .videoTitle {
+  font-weight: bold;
+}
+
+/* line 644, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoThumb {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 650, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoThumb .thumb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 0 10px white, 0 0 0 11px #BEA67C;
+  margin: 20px 0;
+  transition: all 0.3s;
+}
+
+/* line 659, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoThumb .thumb:hover {
+  box-shadow: 0 0 0 15px white, 0 0 0 16px #BEA67C;
+}
+
+/* line 663, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoThumb .thumb .playIcon {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  left: 35%;
+  right: 35%;
+  top: 35%;
+  bottom: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #BEA67C;
+  padding: 15px 15px 15px 20px;
+  line-height: 0;
+  border-radius: 50%;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* line 682, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoThumb .thumb .playIcon:hover {
+  left: 30%;
+  right: 30%;
+  top: 30%;
+  bottom: 30%;
+}
+
+/* line 691, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoThumb .thumbTable {
+  background: url("../imgs/thumbTable.png") no-repeat 30% 50%;
+  background-size: 160%;
+}
+
+/* line 696, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoThumb .thumbChair {
+  background: url("../imgs/thumbChair.png") no-repeat 30% 50%;
+  background-size: cover;
+}
+
+/* line 701, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoThumb .thumbDesk {
+  background: url("../imgs/thumbDesk.png") no-repeat 30% 50%;
+  background-size: 100%;
+}
+
 /*# sourceMappingURL=../css/styles.map */

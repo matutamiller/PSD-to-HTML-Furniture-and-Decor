@@ -24,7 +24,20 @@
   opacity: 0.1;
 }
 
-/* line 27, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+/* line 26, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+.v-letter {
+  font-size: 22em;
+  font-weight: bold;
+  color: #BEA67C;
+  opacity: 0.1;
+  top: 0;
+  right: 15%;
+  line-height: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/* line 37, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
 .furnText {
   text-transform: uppercase;
   color: #BEA67C;
@@ -36,7 +49,7 @@
   font-weight: bold;
 }
 
-/* line 38, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+/* line 48, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
 .decText {
   text-transform: uppercase;
   color: #BEA67C;
@@ -914,6 +927,123 @@ body {
 .videoThumb .thumbDesk {
   background: url("../imgs/thumbDesk.png") no-repeat 30% 50%;
   background-size: 100%;
+}
+
+/* line 708, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.designVideoWrapper {
+  width: 100%;
+  position: relative;
+}
+
+/* line 713, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoBg {
+  padding: 400px 0;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../imgs/woodBottomBackground.png) no-repeat center;
+  background-size: 100%;
+}
+
+/* line 720, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.videoPlayIcon {
+  color: rgba(255, 255, 255, 0.05);
+  position: absolute;
+  top: 0;
+  right: 10%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 55em;
+  user-select: none;
+}
+
+/* line 734, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.designVideoContent {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  border: 1px solid #BEA67C;
+  display: flex;
+  align-items: center;
+}
+
+/* line 745, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.designVideoContent_text {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+/* line 753, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.designVideoContent_text h2 {
+  color: #BEA67C;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  position: relative;
+}
+
+/* line 761, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.designVideoContent_text h2:before {
+  content: '';
+  width: 150px;
+  height: 3px;
+  background: #6D6D6D;
+  position: absolute;
+  right: 105%;
+  top: 25%;
+}
+
+/* line 772, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.designVideoContent_text > p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: white;
+  margin: 30px 0;
+  position: relative;
+}
+
+/* line 779, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.designVideoContent_text > p:before {
+  content: '';
+  width: 50px;
+  height: 4px;
+  background: #BEA67C;
+  position: absolute;
+  right: 105%;
+  top: 10%;
+}
+
+/* line 790, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.designVideoContent_text:after {
+  content: '';
+  width: 3px;
+  height: 150px;
+  background: #6D6D6D;
+  position: absolute;
+  left: 120%;
+  top: 30%;
+}
+
+/* line 801, /Users/user/Downloads/web_development/wooder/scss/styles.scss */
+.watchVideo {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+  padding: 1em 3em;
+  border: 3px solid white;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.4em;
 }
 
 /*# sourceMappingURL=../css/styles.map */

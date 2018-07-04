@@ -24,7 +24,20 @@
   opacity: 0.1;
 }
 
-/* line 27, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+/* line 26, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+.v-letter {
+  font-size: 22em;
+  font-weight: bold;
+  color: #BEA67C;
+  opacity: 0.1;
+  top: 0;
+  right: 15%;
+  line-height: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/* line 37, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
 .furnText {
   text-transform: uppercase;
   color: #BEA67C;
@@ -36,7 +49,7 @@
   font-weight: bold;
 }
 
-/* line 38, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
+/* line 48, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
 .decText {
   text-transform: uppercase;
   color: #BEA67C;

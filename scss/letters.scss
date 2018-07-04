@@ -23,7 +23,17 @@
     font-size: 22em;
     opacity: 0.1;
 }
-
+.v-letter {
+    font-size: 22em;
+    font-weight: bold;
+    color: $brown;
+    opacity: 0.1;
+    top: 0;
+    right: 15%;
+    line-height: 0;
+    position: absolute;
+    z-index: -1;
+}
 .furnText {
     text-transform: uppercase;
     color: $brown;

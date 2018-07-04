@@ -6,4 +6,6 @@ Landing created using html5, scss, css3 flexboxes, responsive web design
 
 v1.0 - Have created 'home' section.
 
-v2.0 - Have added menu driven by JS, created 'products' section. 
+v1.1 - Have added menu driven by JS, created 'products' section. 
+
+v1.2 - Have added 'quality' section. 

@@ -9,3 +9,5 @@ v1.0 - Have created 'home' section.
 v1.1 - Have added menu driven by JS, created 'products' section. 
 
 v1.2 - Have added 'quality' section. 
+
+v.1.3 - Have added 'about us' section and footer.

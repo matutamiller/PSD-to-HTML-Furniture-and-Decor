@@ -10,4 +10,6 @@ v1.1 - Have added menu driven by JS, created 'products' section.
 
 v1.2 - Have added 'quality' section. 
 
-v.1.3 - Have added 'about us' section and footer.
+v1.3 - Have added 'about us' section and footer.
+
+v1.4 - Have added styles for rwd, added scroll.

@@ -25,7 +25,7 @@
 }
 
 /* line 26, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
-.v-letter {
+.vLetter {
   font-size: 22em;
   font-weight: bold;
   color: #BEA67C;
@@ -51,7 +51,7 @@
 }
 
 /* line 50, /Users/user/Downloads/web_development/wooder/scss/letters.scss */
-.a-letter {
+.aLetter {
   position: absolute;
   font-size: 22em;
   color: #BEA67C;

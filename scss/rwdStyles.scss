@@ -1,0 +1,483 @@
+@import 'colors';
+
+@media screen and (max-width:1440px) {
+    #home {
+        .homeWrapper {
+            .start {
+                .leftDots {
+                    margin-left: -100px;
+                    margin-top: 100px;
+                }
+            
+                .furnitureDecor {
+                    margin-right: -100px;
+                }
+            
+                .greeting {
+                    .learnMore {
+                        margin: 5em 0;
+                    }
+                }
+            }
+        }
+    }
+    #products {
+        .furnWrapper {  
+            .furnContent {
+                min-width: 90%;
+                .pic {
+                    min-width: 50%;
+                }
+                .imageItem {
+                    min-width: 80%;
+                }
+                .furnText {
+                    right: -100%;
+                }
+            }
+        }
+    }
+        
+    .decWrapper {
+        .decContent {
+            min-width: 90%;
+            .pic {
+                min-width: 50%;
+            }
+            .imageItem {
+                min-width: 80%;
+            }
+            
+        }
+    } 
+    
+    #quality {
+        .qualityWrapper {
+            .videoWrapper {
+                min-width: 90%;
+            }
+        }
+        .designVideoWrapper {
+            .videoPlayIcon {
+                font-size: 45em;
+            }
+        
+            .videoBg {
+                padding: 300px 0;
+            }
+        
+            .designVideoContent{
+                top: 5%;
+                left: 5%;
+                right: 5%;
+                bottom: 5%;
+                
+            }
+        }
+    }
+
+    #aboutUs {
+        .aboutUsWrapper{
+            .aboutUsContent {
+                flex-wrap: wrap;
+                min-width: 90%;
+                .pic {
+                    width: 90%;
+                    
+                    .imageItem {
+                        margin: 0 auto;
+                        width: 100%;
+                    }
+                }
+ 
+                .aboutWord {
+                    position: absolute;
+                    top: 25%;
+                    left: -50%;
+                }
+            }
+        }
+    } 
+    footer {
+        .footerContent {
+            min-width: 90%;
+        }
+    }  
+}
+@media screen and (max-width:1024px) {
+    #home {
+        .homeWrapper {
+            .bgPics {
+                .bgPic1 {
+                    min-width: 100%;
+                }
+    
+                .bgPic2 {
+                    display: none;
+                }
+            }
+            .homeContent {
+                header {
+                    nav {
+                        display: none;
+                    }
+                    
+                }
+            }
+            .start {
+                .leftDots {
+                    display: none;
+                }
+                .furnitureDecor {
+                    display: none;
+                }
+                .greeting {
+                    margin-left: 0;
+
+                    .learnMore {
+                        outline: 0;
+                        font-size: 0.5em;
+                        letter-spacing: 1px;
+                        padding: 1em 3em;
+                        margin: 5em 0;
+                    }
+
+                    h1 {
+                        font-size: 6em;
+                        letter-spacing: 0.2em;
+                    }
+                }
+            }
+        }
+        
+    }
+    
+    
+
+    #products {
+        .furnWrapper {
+            padding: 50px 0;
+            
+            .furnContent {
+                .filling {
+                    .bFor {
+                        min-width: 20%;
+                    }
+        
+                    .furnDetails {
+                        min-width: 70%;
+                        padding-right: 0;
+                    }
+                }
+                .pic {
+                    .furnText {
+                        font-size: 7em;
+                        right: -100%;
+                    }
+                    .imageItem {
+                        min-width: 90%;
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }    
+    }
+
+    .decWrapper {
+        .decContent {
+            .pic {
+                .imageItem {
+                    min-width: 90%;
+                }
+                .decText {
+                    text-transform: uppercase;
+                    color: $brown;
+                    opacity: 0.2;
+                    font-size: 7em;
+                    position: absolute;
+                    bottom: 25%;
+                    left: -45%;
+                    font-weight: bold;
+                }
+            
+            }
+            .filling {
+                .decorDetails {
+                    min-width: 70%;
+                    padding-left: 0;
+                }
+                .bFor {
+                    min-width: 20%;
+                }
+                .dLetter {
+                    font-size: 16em;
+                    top: -150px;
+                }
+            }
+        }
+    }
+
+    #quality {
+        .qualityWrapper {
+            h1 {
+                font-size: 3em;
+            }
+    
+            & > p {
+                font-size: 1.2em;
+            }
+
+            .videoWrapper {
+                flex-direction: column;
+
+                .video {
+                    min-width: calc(100%/1 - 2em);
+                    margin: 0 auto;
+                }
+            }
+        }
+        .designVideoWrapper {
+            .videoBg {
+                background-size: cover;
+            }
+        
+            .videoPlayIcon {
+                font-size: 30em;
+            }
+            .designVideoContent{
+                .designVideoContent_text {
+                    min-width: 80%;
+                   // margin-left: 200px;
+            
+                    h2 {
+                        font-size: 2em;
+                    }
+            
+                    & > p {
+ 
+                        font-size: 1em;
+                        
+                    }
+            
+                    .watchVideo {
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+
+    #aboutUs {
+        .aboutUsWrapper{
+            .aboutUsContent {
+                .aboutUs_text {
+                    min-width: 80%;
+                }
+            }
+        }
+    }   
+}
+@media screen and (max-width:768px) {
+    #home {
+        .homeWrapper {
+            .homeContent {
+                header {
+                    nav {
+                        display: none;
+                    }
+                    
+                }
+            }
+
+            .start {
+                .leftDots {
+                    p {
+                        font-size: 1em;
+                    &:before {
+                            width: 0.6em;   
+                        }
+                    }
+                } 
+                .greeting {
+                    h1 {
+                        font-size: 2.5em;   
+                    }
+                    .learnMore {
+                        outline: 0;
+                        font-size: 0.5em;
+                        letter-spacing: 1px;
+                        padding: 1em 3em;
+                        margin: 2em;
+                    }
+                    .toScroll {
+                        display: none;
+                    }
+                }
+            }
+            .fLetter {
+                font-size: 18em;
+                bottom: 15%;
+            }
+
+        }
+    }
+    #products {
+        .furnWrapper {
+            padding: 50px 0;
+            
+            .furnContent {
+                .filling {
+                    .furnDetails {
+                        h1 {
+                            font-size:2.5em;
+                        }
+                        p {
+                           font-size:1em; 
+                        }
+                        
+                    }
+                    .number {
+                        font-size: 2em;
+                    }
+                }
+                .pic {
+                    .furnText {
+                        display: none;
+                    }
+                    .imageItem {
+                        margin-left: 50px;
+                       
+                    }
+                }
+            }
+        }
+    }
+    .decWrapper {
+        padding: 50px 0;
+        .decContent {
+            .filling {
+                .decorDetails {
+                    h1 {
+                        font-size:2.5em;
+                    }
+                    p {
+                       font-size:1em; 
+                    }
+                    
+                }
+                .number {
+                    font-size: 2em;
+                }
+            }
+            .pic {
+                .decText {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .designVideoWrapper {
+        .designVideoContent{
+            .designVideoContent_text {
+                h2 {
+                    font-size: 2em;
+                    letter-spacing: 1.5px;
+                    line-height: 1.4;
+                   
+                }
+            }
+            .watchVideo {
+                padding: 0.5em 1.5em;
+            }
+        }
+        .vLetter {
+            font-size: 18em;
+        }
+
+    }
+    #quality {
+        .qualityWrapper {
+    
+            padding: 2em 0;
+            
+        
+            h1 {
+               
+                font-size: 2em;
+                
+            }
+        
+        & > p {
+                font-size: 1em;
+            }
+        }
+        
+            
+    }
+    
+    
+    #aboutUs{
+        .aboutUsWrapper{
+            .aboutUsContent {
+                flex-wrap: wrap;
+                .pic {
+                    width: 90%;
+                    
+                    .imageItem {
+                        margin: 0 auto;
+                        width: 100%;
+                    }
+                }
+                .aboutUs_text {
+                    p {
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+    .footerContent {
+        flex-direction: column;
+        .logo {
+            display: none;
+        }
+        .copy_year {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+
+
+   
+
+    
+
+
+    
+
+   
+
+   
+
+    
+
+    
+
+    
+   
+
+    
+
+    
+   
+    
+
+
+
+

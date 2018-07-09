@@ -1,6 +1,8 @@
 @import 'colors';
 @import 'letters';
 @import 'mobStyles';
+@import 'rwdStyles';
+
 //Commom setings 
 * {
     margin: 0;
@@ -826,6 +828,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    flex-wrap: nowrap;
 
     .pic {
         width: calc(100%/2);

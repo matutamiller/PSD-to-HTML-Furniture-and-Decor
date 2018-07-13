@@ -1,6 +1,6 @@
 @import 'colors';
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1400px) {
     #home {
         .homeWrapper {
             .start {
@@ -81,9 +81,7 @@
             .aboutUsContent {
                 flex-wrap: wrap;
                 min-width: 90%;
-                .pic {
-                    width: 90%;
-                    
+                .pic {        
                     .imageItem {
                         margin: 0 auto;
                         width: 100%;
